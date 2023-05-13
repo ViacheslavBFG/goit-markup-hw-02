@@ -179,3 +179,25 @@
  .team-item {
      background-color: #FFFFFF;
  }
+
+
+ /* FOOTER */
+
+ .footer {
+     background: #2E2F42;
+
+ }
+
+
+ .footer-information {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #F4F4FD;
+ }
+
+ .footer-logo-color {
+
+     color: #F4F4FD;
+ }
