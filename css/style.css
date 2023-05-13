@@ -107,4 +107,19 @@
 
  /* Section 2 */
 
- 
+ .skill-section {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2E2F42;
+ }
+
+
+ .skill-description {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+ }
