@@ -35,6 +35,9 @@
 
  }
 
+ .header-address{
+    font-style: normal;
+ }
 
  .headre-adress-link {
      font-weight: 400;
@@ -65,3 +68,5 @@ color: #4D5AE5;
  .header-logo-color{
     color: #2E2F42;
  }
+
+ 
