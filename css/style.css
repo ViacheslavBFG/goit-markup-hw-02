@@ -248,3 +248,7 @@
      --button-bg-color: #F4F4FD;
      --portfolio-header-color: #2e2f42;
  }
+
+ .portfolio-link{
+    text-decoration: none;
+ }
