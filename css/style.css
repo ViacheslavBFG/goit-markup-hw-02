@@ -213,6 +213,8 @@
      line-height: 1.5;
      letter-spacing: 0.04em;
      color: #4D5AE5;
+     background-color: var(--button-bg-color);
+     
 
  }
 
@@ -229,7 +231,7 @@
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
-     color: #2E2F42;
+
 
  }
 
@@ -241,3 +243,8 @@
      color: #434455;
 
  }
+
+ :root{
+    --button-bg-color: #F4F4FD;
+ }
+ 
