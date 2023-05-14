@@ -4,6 +4,16 @@
      background-color: #FFFFFF;
  }
 
+ :root {
+     --button-bg-color: #F4F4FD;
+     --portfolio-header-color: #2e2f42;
+     --header-background: #FFFFFF;
+     --header-link-hf: #404BBF;
+     --headre-adress-link: #434455;
+     --header-logo-main: #4D5AE5;
+ }
+
+
  .list {
      list-style: none;
 
@@ -15,7 +25,7 @@
 
 
  .header {
-     background: #FFFFFF;
+     background: var(--header-background);
  }
 
 
@@ -25,13 +35,12 @@
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #2E2F42;
-
+     color: var(--portfolio-header-color)
  }
 
  .header-link:hover,
  .header-link:focus {
-     color: #404BBF;
+     color: var(--header-link-hf);
 
  }
 
@@ -44,13 +53,13 @@
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #434455;
-     font-family: 'Raleway', 'sans-serif';
+     color: var(--headre-adress-link);
+     font-family: 'Roboto';
  }
 
  .headre-adress-link:hover,
  .headre-adress-link:focus {
-     color: #404BBF;
+     color: var(--header-link-hf);
 
  }
 
@@ -62,17 +71,17 @@
      line-height: 1.17;
      letter-spacing: 0.03em;
      text-transform: uppercase;
-     color: #4D5AE5;
+     color: var(--header-logo-main);
  }
 
  .header-logo-color {
-     color: #2E2F42;
+     color: var(--portfolio-header-color);
  }
 
  /* SECTION 1 */
 
  .hero {
-     background: #2E2F42;
+     background: var(--portfolio-header-color);
  }
 
  .hero-greetings {
@@ -82,19 +91,17 @@
      line-height: 1.07;
      text-align: center;
      letter-spacing: 0.02em;
-     color: #FFFFFF;
+     color: var(--header-background);
  }
 
  .hero-button {
-     font-family: 'Roboto';
      font-style: normal;
      font-weight: 500;
      font-size: 16px;
-     line-height: 24px;
-     align-items: center;
+     line-height: 1.5;
      letter-spacing: 0.04em;
-     color: #FFFFFF;
-     background-color: #4D5AE5;
+     color: var(--header-background);
+     background-color: var(--header-logo-main);
      cursor: pointer;
      font-family: "Roboto", sans-serif;
  }
@@ -102,7 +109,7 @@
 
  .hero-button:hover,
  .hero-button:focus {
-     background-color: #404BBF;
+     background-color: var(--header-link-hf);
  }
 
  /* Section 2 */
@@ -112,7 +119,7 @@
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
-     color: #2E2F42;
+     color: var(--portfolio-header-color);
  }
 
 
@@ -121,7 +128,7 @@
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #434455;
+     color: var(--headre-adress-link);
  }
 
  /* Section 3 */
@@ -133,7 +140,7 @@
      text-align: center;
      letter-spacing: 0.02em;
      text-transform: capitalize;
-     color: #2E2F42;
+     color: var(--portfolio-header-color);
  }
 
  /* Section 4 */
@@ -141,7 +148,7 @@
 
  .good-guys {
 
-     background: #F4F4FD;
+     background: var(--button-bg-color);
  }
 
 
@@ -153,7 +160,7 @@
      text-align: center;
      letter-spacing: 0.02em;
      text-transform: capitalize;
-     color: #2E2F42;
+     color: var(--portfolio-header-color);
 
  }
 
@@ -163,43 +170,41 @@
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
-     color: #2E2F42;
+     color: var(--portfolio-header-color);
  }
 
  .team-direction {
-     font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #434455;
+     color: var(--headre-adress-link);
 
  }
 
 
  .team-item {
-     background-color: #FFFFFF;
+     background-color: var(--header-background);
  }
 
 
  /* FOOTER */
 
  .footer {
-     background: #2E2F42;
+     background: var(--portfolio-header-color);
 
  }
 
 
  .footer-information {
-     font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #F4F4FD;
+     color: var(--button-bg-color);
  }
 
  .footer-logo-color {
 
-     color: #F4F4FD;
+     color: var(--button-bg-color);
  }
 
  /* PORTFOLIO */
@@ -212,7 +217,7 @@
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.04em;
-     color: #4D5AE5;
+     color: var(--header-logo-main);
      background-color: var(--button-bg-color);
 
 
@@ -220,8 +225,8 @@
 
  .portfolio-button:hover,
  .portfolio-button:focus {
-     color: #FFFFFF;
-     background: #404BBF;
+     color: var(--header-background);
+     background: var(--header-link-hf);
      cursor: pointer;
  }
 
@@ -236,18 +241,14 @@
  }
 
  .portfolio-paragraph {
-     font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #434455;
+     color: var(--headre-adress-link);
 
  }
 
- :root {
-     --button-bg-color: #F4F4FD;
-     --portfolio-header-color: #2e2f42;
- }
+
 
  .portfolio-link {
      text-decoration: none;
